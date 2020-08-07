@@ -4,7 +4,7 @@ Version: 1.0
 Summary: Fix the sys.path to import modules correctly.
 Home-page: https://github.com/nthdevops/pyModules.git
 Author: nthdevops
-Author-email: none
+Author-email: nthmanager@gmail.com
 License: UNKNOWN
 Description: #Import Fix
         
