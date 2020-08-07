@@ -1,6 +1,6 @@
 import sys,os
 
 def setImportPathRoot(rootPath):
-    fullPath = os.getcwd()+rootPath
+    fullPath = os.path.abspath(os.getcwd()+"/"+rootPath)
     if not fullPath in sys.path:
-        sys.path.index(fullPath)
+        sys.path.append(fullPath)
