@@ -1,0 +1,7 @@
+setup.py
+importRootFix.egg-info/PKG-INFO
+importRootFix.egg-info/SOURCES.txt
+importRootFix.egg-info/dependency_links.txt
+importRootFix.egg-info/top_level.txt
+importer/__init__.py
+importer/importerFixer.py
