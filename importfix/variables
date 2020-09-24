@@ -1,5 +1,5 @@
-NAME="importRootFix"
-VERSION="1.1"
+NAME="importfix"
+VERSION="1.0"
 AUTHOR="nthdevops"
 AUTHOR_EMAIL="nthmanager@gmail.com"
 DESCRIPTION="Fix the sys.path to import modules correctly."
