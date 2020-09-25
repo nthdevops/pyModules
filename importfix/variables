@@ -4,3 +4,4 @@ AUTHOR="nthdevops"
 AUTHOR_EMAIL="nthmanager@gmail.com"
 DESCRIPTION="Fix the sys.path to import modules correctly."
 URL="https://github.com/nthdevops/pyModules.git"
+REQUIRES=''

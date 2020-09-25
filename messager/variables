@@ -1,7 +1,7 @@
 NAME="telegramApi"
-VERSION="1.3"
+VERSION="1.5"
 AUTHOR="nthdevops"
 AUTHOR_EMAIL="nthmanager@gmail.com"
 DESCRIPTION="Message classes."
 URL="https://github.com/nthdevops/pyModules.git"
-REQUIRES='telegram','configparser'
+REQUIRES='telegram','configparser','python-telegram-bot'

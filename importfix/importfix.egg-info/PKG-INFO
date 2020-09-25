@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: importfix
-Version: 1.1
+Version: 1.2
 Summary: Fix the sys.path to import modules correctly.
 Home-page: https://github.com/nthdevops/pyModules.git
 Author: nthdevops

@@ -1,4 +1,3 @@
-setup.py
 importfix/__init__.py
 importfix/importfix.py
 importfix.egg-info/PKG-INFO

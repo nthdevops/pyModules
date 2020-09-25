@@ -1,3 +1,5 @@
+telegramApi/__init__.py
+telegramApi/telegramApi.py
 telegramApi.egg-info/PKG-INFO
 telegramApi.egg-info/SOURCES.txt
 telegramApi.egg-info/dependency_links.txt
