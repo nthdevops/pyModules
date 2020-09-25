@@ -18,7 +18,7 @@ class telegramApi:
             print("Nao foi possivel carregar a configuracao.\nArquivo nao encontrado!")
 
     def setBotConfig(self):
-        defaultConfig = self.config['DEFAULT']
+        defaultConfig = self.config['TELEGRAM']
         self.__bot = telegram.Bot(token=defaultConfig['bot.token'])
         self.__chatId = defaultConfig['chat.id']
 

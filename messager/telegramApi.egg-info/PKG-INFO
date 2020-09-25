@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: telegramApi
-Version: 1.2
+Version: 1.3
 Summary: Message classes.
 Home-page: https://github.com/nthdevops/pyModules.git
 Author: nthdevops
@@ -14,7 +14,7 @@ Description: # Messager
         ### telegramApi
         **Create a ini with the following structure:**
         
-        [DEFAULT]
+        [TELEGRAM]
         
         bot.token=
         

@@ -6,7 +6,7 @@
 ### telegramApi
 **Create a ini with the following structure:**
 
-[DEFAULT]
+[TELEGRAM]
 
 bot.token=
 
