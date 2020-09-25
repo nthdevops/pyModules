@@ -14,9 +14,16 @@ if os.path.isfile("variables"):
             variables = fh.read().strip().split("\n")
         for v in variables:
             key, value = v.split("=")
-            varsVals[key] = re.sub("['\"]", "", value)
+            vSplit = value.split(",")
+            if len(vSplit) > 1:
+                varsVals[key] = []
+                for splitV in vSplit:
+                    varsVals[key].append(re.sub("['\"]", "", splitV))
+            else:
+                varsVals[key] = re.sub("['\"]", "", value)
     except:
-        pass
+        print("Not cool")
+        exit()
 
 setuptools.setup(
     name=varsVals["NAME"],
@@ -24,6 +31,7 @@ setuptools.setup(
     author=varsVals["AUTHOR"],
     author_email=varsVals["AUTHOR_EMAIL"],
     description=varsVals["DESCRIPTION"],
+    install_requires=varsVals['REQUIRES'],
     url=varsVals["URL"],
     long_description=long_description,
     long_description_content_type="text/markdown",
